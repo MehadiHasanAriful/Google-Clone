@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Google Clone</title>
+</head>
+
+<body  class="bg-white">
+  
+<!--Navbar start form here -->
+    <nav class="flex justify-between items-center font-sans">
+    
+        <div class="p-2">
+            <a href="#" class="p-2 underline-hover">About</a>
+            <a href="#" class="p-2 underline-hover">Store</a>
+        </div>
+    
+        <div class="p-2 flex justify-evenly items-center">
+            <a href="#" class="p-2 underline-hover">Gmail</a>
+            <a href="#" class="p-2 underline-hover">Images</a>
+            <div class="p-2 round-hover">
+                <svg xmlms="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#434343">
+                    <path
+                        d="M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm80-120h400L544-400H416L280-240Zm-80 40h560L520-492v-268h-80v268L200-200Zm280-280Z" />
+                </svg>
+            </div>
+    
+            <div class="p-2 round-hover">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                    <path
+                        d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z" />
+                </svg>
+    
+            </div>
+        </div>
+    
+    </nav>
+<!-- navbar ends here -->
+
+
+<!-- Hero Sction  start from Here -->
+<div class="flex items-center justify-center flex-col">
+
+    <div>
+        <span class=" text-blue-500 text-[100px]">G</span><span class="text-red-500 text-[100px]">o</span><span class="text-orange-500 text-[100px]">o</span><span class="text-blue-500 text-[100px]">g</span><span class="text-green-500 text-[100px]">l</span><span class="text-red-500 text-[100px]">e</span>
+    </div>
+    
+<!-- ----------------------------------------- -->
+    <div class="w-[70%] h-[35px] border-[1px] border-solid rounded-3xl border-gray-500 md:w-[65%] lg:w-[40%] flex justify-between items-center">
+     
+    <i class="fa-solid fa-magnifying-glass text-gray-500 ml-[12px]"></i>
+
+    <input type="text" placeholder="Search Google or type a URL" class="flex-grow-1 px-2 focus:outline-none">
+
+    <div class="flex justify-between items-center mr-[10px]">
+    <i class="fa-solid fa-microphone text-blue-400 mr-[7px]"></i>
+    <i class="fa-solid fa-camera text-red-500 m-[3px]"></i>
+    </div>
+
+   </div>
+<!-- ------------------------------------------------------- -->
+
+<div class="mt-12">
+    <button class="py-2 px-4 bg-gray-100 mr-4 hover:bg-gray-200">Google Search</button>
+    <button class="p-2 bg-gray-100 hover:bg-gray-200">I'am Feeling Lucky</button>
+</div>
+
+<!-- ------------------------------------------------------------- -->
+
+<div class="flex [&>*]:inline-block [&>*]:m-[2px] mt-12">
+
+    <p>Google offered in :</p>
+
+     <a href="#" class="text-blue-500 underline-hover">Bangla </a>
+     <a href="#" class="text-blue-500 underline-hover">English </a>
+     <a href="#" class="text-blue-500 underline-hover">Arabic </a>
+     <a href="#" class="text-blue-500 underline-hover">French </a>
+     <a href="#" class="text-blue-500 underline-hover">Spanish </a>
+
+</div>
+
+</div>
+<!-- Hero section end here -->
+
+
+<!-- footer section start form here  -->
+
+<footer class="bg-gray-100 text-[14px] md:text-[16px] lg:text-[16px]">
+
+    <div class="w-[100%] h-12 border-b-[1px] border-gray-500 flex  items-center">
+        <p class="ml-[12px] underline-hover">Bangladesh</p>
+    </div>
+
+    <div class="flex justify-between items-center h-12 w-[100%] ">
+
+        <div class="px-2 md:px-5 lg:px-[10px]">
+                <a href="#" class="underline-hover md:ml-[10px] lg:ml-[10px] ml-[5px] mr-[4px]">Advertising</a>
+                <a href="#" class="underline-hover md:ml-[30px] lg:ml-[10px] mr-[4px]">Business</a>
+                <a href="#" class="underline-hover md:ml-[30px] lg:ml-[10px]">How Search Works</a>
+        </div>
+
+        <div class="px-2 md:px-5 lg:px-[10px]">
+            <a href="#" class="underline-hover md:mr-[30px] lg:mr-[10px] ">Privacy</a>
+            <a href="#" class="underline-hover md:mr-[30px] lg:mr-[10px] ml-[4px]">Terms</a>
+            <a href="#" class="underline-hover md:mr-[30px] lg:mr-[10px] ml-[4px]">Settings</a>
+        </div>
+
+    </div>
+</footer>
+<!-- footer section ends here -->
+
+</body>
+</html>

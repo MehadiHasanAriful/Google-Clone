@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.underline-hover:hover{ 
+    text-decoration: underline;
+}
+
+.round-hover:hover{
+    border-radius: 50%;
+    background-color: #C2C2C2;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
